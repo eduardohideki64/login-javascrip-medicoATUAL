@@ -1,0 +1,17 @@
+[
+  {
+    "username": "eduardinho@gmail.com",
+    "password": "1234",
+    "tipo": "paciente"
+  },
+  {
+    "username": "jorgin@gmail.com",
+    "password": "1234",
+    "tipo": "medico"
+  },
+  {
+    "username": "hideki@gmail.com",
+    "password": "1234",
+    "tipo": "paciente"
+  }
+]

@@ -1,0 +1,44 @@
+body{
+
+    background-image: url('tablet.jpg');
+    background-size: cover; /* ajusta o tamanho da imagem para cobrir completamente o elemento */
+    background-position: center; /* centraliza a imagem no elemento */
+    height: 90vh; /* 100% da altura da viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff; /* cor do texto para melhor visibilidade na imagem de fundo */
+
+}
+fieldset{
+    position: absolute;
+    margin-top: -150px;
+    background-color: aqua;
+    margin-left: -450px;
+    width: 300px;
+    padding: 60px;
+    border-radius: 8px;
+    background-color: rgba(220, 214, 203, 0.7); /* Cor de fundo translúcido (verde) com opacidade de 0.7 */
+    padding: 20px;
+    border-radius: 8px;
+}
+button{
+    display: block;
+    margin-bottom: 8px;
+    padding: 10px 20px;
+    background-color: #0966d5;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    opacity: 1.0; /* valor de opacidade entre 0 e 1 */
+}
+input{
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ddd; /* cor da borda padrão */
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    transition: border-color 0.3s ease; /* efeito de transição na borda */
+}

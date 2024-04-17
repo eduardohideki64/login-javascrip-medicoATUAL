@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <title>Document</title>
+</head>
+<body>
+        <form id="usuarioForm">
+            <h1> cadastro de usuario</h1>
+            <label> usuario </label>
+            <input type="text" id="usuarioo" required>
+            <br>
+            <label> senha:</label>
+            <input type="senha" id="senha" required>
+            <br>
+            <label> Tipo de usuario: </label>
+            <br>
+            <select id="tipo"> 
+            <div class="w3-container"> 
+                <option selected disabled> Escolha uma opção:</option>
+                <option value="administrador" id="adm"> administrador:</option>
+                <option value="paciente" id="paciente"> paciente:</option>
+                <option value="medico" id="nomeMedico"> medico</option>
+            </div>
+
+                
+            </select>
+            <br>
+            <button type="submit">Cadastrar</button>
+            <P id="msg"></P>
+        </form>
+        <script src="script-cadastro.js"></script>
+</body>
+</html>

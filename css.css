@@ -1,0 +1,121 @@
+
+
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+body{
+    background-color: rgb(188, 236, 220);
+    background-size: cover; /* Isso garante que a imagem cubra todo o fundo */
+    background-position: center; /* Centraliza a imagem no fundo */
+    /* Adicione mais propriedades CSS conforme necessário */
+
+}
+button{
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 90px;
+    margin-left: 490px;
+}
+
+
+h2{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: -320px;
+    margin-left: 500px;
+}
+h6{
+    width: 260px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 470px;
+    margin-top: 180px;
+}
+#img{
+    height: 130px;
+    margin-left: 100px;
+    margin-top: -200px;
+}
+#cardinho{
+    position: absolute;
+    margin-left: 950px;
+    margin-top: 130px;
+}
+#cooonnn{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 620px;
+}
+#dropdown{
+    position: absolute;
+    margin-left: 1000px;
+}
+#homee{
+    position: absolute;
+    margin-left: 330px;
+    margin-top: -17px;
+}
+#quadratico{
+
+    position: fixed;
+    top: 5px;
+    right: 20px;
+    padding: 30px;
+    left: 20px;
+    background-color: #eaeaea; /* Altere a cor conforme necessário */
+    z-index: -1; /* Para garantir que o retângulo esteja atrás do conteúdo da página */
+}
+#pesquisinha{
+    position: absolute;
+    margin-left: 760px;
+    margin-top: 4px;
+    
+}
+#lupa{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #eaeaea; /* Altere a cor conforme necessário */
+    
+}
+#lupaa{
+    position: absolute;
+    width: 22px;
+    margin-top: -10px;
+    margin-left: -15px;
+
+}
+#carouselExampleSlidesOnly{
+    position: absolute;
+    width: 400px;
+    margin-top: 200px;
+    margin-left: 80px;
+}
+#prafrente{
+    position: absolute;
+}
+#pratras{
+    position: absolute;
+    margin-right: 1000px;
+}
+#message{
+    position: absolute;
+    margin-left: 940px;
+    margin-top: -22px;
+}
